@@ -1,0 +1,14 @@
+create tbl1 A B
+create tbl2 C B
+show tbl1
+show tbl2
+insert tbl1 1 2
+insert tbl2 3 4
+show tbl1
+show tbl2
+insert tbl1 3 4
+update tbl1 A 1 A 2
+show tbl1
+remove tbl1 B 4
+show tbl1
+show tbl2

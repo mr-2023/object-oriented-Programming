@@ -1,0 +1,12 @@
+load sample_input_2_2.txt
+list
+insert tbl1 7 8 9
+show tbl1
+save tbl1 sample_output_save.txt
+rename tbl1 B E
+show tbl1
+delete tbl1
+list
+load sample_output_save.txt
+list
+show tbl1

@@ -1,0 +1,21 @@
+load sample_input_2_2.txt
+load sample_input_3_2.txt
+show tbl1
+show tbl2
+create tbl1_2 A B C
+select tbl1 A 4 tbl1_2
+show tbl1_2
+create tbl1_3 B A
+proj tbl1 tbl1_3
+show tbl1_3
+delete tbl1_3
+create tbl1_3 B A
+proj tbl1_2 tbl1_3
+show tbl1_3
+create tbl3 A B C D E
+join tbl1 C tbl2 D tbl3
+show tbl3
+delete tbl3
+create tbl3 A B C D E
+join tbl1_2 C tbl2 D tbl3
+show tbl3

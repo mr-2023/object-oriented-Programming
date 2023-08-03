@@ -1,0 +1,4 @@
+create tbl2 D E
+insert tbl2 1 2
+insert tbl2 3 4
+insert tbl2 5 6

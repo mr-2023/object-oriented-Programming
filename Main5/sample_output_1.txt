@@ -1,0 +1,20 @@
+Table tbl1
+* A B
+Table tbl2
+* C B
+Table tbl1
+* A B
++ 1 2
+Table tbl2
+* C B
++ 3 4
+Table tbl1
+* A B
++ 2 2
++ 3 4
+Table tbl1
+* A B
++ 2 2
+Table tbl2
+* C B
++ 3 4

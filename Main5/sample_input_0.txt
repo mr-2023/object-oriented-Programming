@@ -1,0 +1,7 @@
+list
+create tbl1 col1
+list
+create tbl2 col2
+list
+delete tbl1
+list
